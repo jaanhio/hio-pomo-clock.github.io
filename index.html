@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Hio's Pomodoro Clock</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Jianhao's Portfolio" />
+  <!--include more info via meta -->
+  <script src="https://use.fontawesome.com/60cfec0ead.js"></script>
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" type="text/css">-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=UnifrakturCook:700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Coda" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <div class="settings-container">
+      <div class="break-settings">
+        <p>BREAK LENGTHS</p>
+        <div class="break">
+          <button id="add-break">+</button>
+          <p id="break-time">5</p>
+          <button id="minus-break">-</button>
+        </div>
+      </div>
+      <div class="session-settings">
+        <p>SESSION LENGTH</p>
+        <div class="session">
+          <button id="add-session">+</button>
+          <p id="session-time">25</p>
+          <button id="minus-session">-</button>
+        </div>
+      </div>
+    </div>
+    <div class="clock-container">
+      <h1 id="status">Please select the desired break and session time.</h1>
+      <!--<h6 id="tips">(Recommended duration is 25mins session with 5mins break)</h6>-->
+      <h1 id="timer">25</h1>
+      <p id="timer-unit">seconds</p>
+      <div id="loading-bar">
+        <div id="progress-bar"></div>
+      </div>
+      <div class="controls">
+        <button><i class="material-icons" style="font-size:48px" id="start-pause-button">play_arrow</i></button>
+        <!--<button><i class="material-icons" style="font-size:48px" id="pause-button">pause</i></button>-->
+        <button><i class="material-icons" style="font-size:48px" id="reset-button">replay</i></button>
+      </div>
+    </div>
+    <footer>
+      <p>Designed by</p>
+      <div class="name-container">
+        <span class="char1">J</span>
+        <span class="char2">I</span>
+        <span class="char3">A</span>
+        <span class="char4">N</span>
+        <span class="char5">H</span>
+        <span class="char6">A</span>
+        <span class="char7">O</span>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+</html>
